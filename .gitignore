@@ -141,3 +141,7 @@ docker-compose.yml
 /test-results/
 /playwright-report/
 /playwright/.cache/
+
+# Exclude specific folders
+.trae/
+docs/
