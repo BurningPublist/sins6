@@ -1,0 +1,30 @@
+{
+  "name": "@low-code-automation/shared",
+  "version": "1.0.0",
+  "description": "Shared types and utilities for low-code automation platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rimraf dist",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "shared",
+    "low-code"
+  ],
+  "author": "Low-Code Automation Platform",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
